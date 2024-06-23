@@ -1,0 +1,230 @@
+
+header{
+    background-color: rgb(219, 212, 212);
+    border-radius: 8px;
+}
+body {
+background-color: rgb(32, 30, 46);
+scroll-behavior: smooth;
+/* Optional: Set text color to white for better contrast */
+}
+
+.Brandname{
+    float: left;
+    padding: 10px;
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
+    position: sticky;
+                                                
+}
+.me{
+color: rgb(198, 173, 35);
+text-decoration: none;
+
+}
+
+.navbar ul {
+overflow: hidden;
+
+}
+.navbar  li{
+color: white;
+float: right;
+list-style: none;
+padding: 10px;
+margin: 30px 20 px;
+
+
+}
+.navbar  li a{
+
+padding: 15px 15px ;
+text-decoration: none;
+color: rgb(17, 29, 59);
+}
+.navbar  li a:hover{
+color: white;
+}
+
+.intro{
+padding-top: 50px;
+margin-top: 50px;
+padding-left: 50px;
+
+
+}
+#B1
+{
+font-size: 50px;
+color: rgb(148, 110, 40);
+text-decoration: none;
+
+}
+#B2
+{
+font-size: 40px;
+color: white;
+text-decoration: none;
+
+}
+#B3
+{
+font-size: 35px;
+color: white;
+text-decoration: none;
+;
+}
+#B4
+{
+font-size: 30px;
+color: rgb(148, 110, 40);
+text-decoration: none;
+padding-bottom: 100px;
+}
+#B5
+{
+font-size: 15px;
+color: rgb(208, 201, 188);
+text-decoration: none;
+
+}
+
+
+
+#img {
+      
+position: absolute; /* Set image to absolute position */
+  top: 60%; /* Center image vertically */
+  left: 75%; /* Center image horizontally */
+  transform: translate(-50%, -50%); /* Adjust positioning as needed */
+  max-width: 100%;
+  height: auto;
+  border-radius: 60%;
+  box-shadow: 0px 5px 10px rgba(178, 160, 160, 0.3); /* Added box-shadow for shadow */
+
+}
+
+#button{
+background-color: rgb(212, 177, 64);
+border: 2px solid;
+border-color: rgb(250, 251, 252);
+border-radius: 10px;
+}
+#button:hover{
+background-color: transparent;
+color: aliceblue;
+}
+#Res_but{
+background-color: rgb(212, 177, 64);
+border: 2px solid;
+border-color: rgb(250, 251, 252);
+border-radius: 10px;
+margin-bottom: 200px;
+}
+#Res_but:hover{
+background-color:transparent;
+color: aliceblue;
+}
+
+.services{
+text-decoration: none;
+text-align: center;
+font-size: 30px;
+color: rgb(204, 181, 34);
+font-weight: bold;
+}
+
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+}
+
+.Cards{
+    height: 300px;
+    width: 355 px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    box-shadow: #f6f2f2;
+    transition: 0.3s;
+}
+.Cards:hover{
+    background-color: rgb(100, 80, 80);
+   transform: scale(1.05);
+}
+.Cards p{
+    color: rgb(249, 249, 249);    
+}
+.Cards h5{
+    color: rgb(236, 183, 117);   
+    font-size: x-large; 
+}
+.Cards i{
+    font-size: 20px;
+    padding: 0px;
+}
+.project h1{
+    text-align: center;
+    padding: 0px;
+    margin-bottom: 50px;
+    
+}
+
+
+.Pcard1{
+display: inline-block;
+box-sizing: border-box;
+height: 250px;
+width: 355px;
+background-color: #191919;
+border-radius: 10px;
+padding: 15px;
+margin: 20px;
+overflow: hidden;
+transition: 0.3s;
+}
+.Pcard1 p{
+    color: #f6f2f2;
+}
+.Pcard1 h3{
+text-align: center;    
+}
+.Pcard1:hover{
+    background-color: rgb(100, 80, 80);
+    transform: scale(1.05);
+  
+}
+#Pbutton{
+    background-color:  rgb(177, 141, 25);
+    border: 2px solid;
+    border-color: rgb(250, 251, 252);
+    border-radius: 10px;
+}
+#Pbutton:hover{
+    background-color:transparent;
+    color: aliceblue;
+    }
+footer{
+    background-color: #1b1e1f;
+    text-align: center;
+    border-radius: 20px;
+}
+.links h1{
+    text-align: center;
+    
+
+}
+.links a{
+    padding : 20px;
+    font-size: xxx-large;
+   
+}
+.links p{
+    color: white;
+}
